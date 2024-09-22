@@ -39,7 +39,7 @@ program variables
   implicit none
 
   integer :: amount
-  real :: pi, e
+  real :: pi, e ! two variables declared
   complex :: frequency
   character :: initial
   logical :: isOkay
