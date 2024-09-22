@@ -176,7 +176,7 @@ program float
 
   float32 = 1.0_sp  ! Explicit suffix for literal constants
   float64 = 1.0_dp
-
+  print*, float32, float64
 end program float
 ```
 
