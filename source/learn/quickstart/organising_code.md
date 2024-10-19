@@ -183,9 +183,6 @@ module norm_mod
   function vector_norm(vec,p) result(norm)
     real, intent(in) :: vec(:)
     integer, intent(in), optional :: p ! power
-    real :: norm
-    integer :: n
-    n = size(vec)
     if (present(p)) then ! compute Lp norm
       norm = sum(abs(vec)**p) ** (1.0/p)
     else ! compute L2 norm
